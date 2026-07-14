@@ -1,0 +1,19 @@
+
+
+	// Definici�n de la funci�n (SubProceso sin retorno)
+	
+	SubProceso mostrarMensajeSistemas(jelp)
+		// �mbito Local: Esta variable solo existe aqu�
+		Definir mensaje_Local Como Caracter
+		mensaje <- "Iniciando sistema... Abstracci�n completada.";
+		
+		Escribir mensaje;
+		
+FinSubProceso
+
+Algoritmo ejercicio_subprocesos
+    Escribir "Llamando a la funci�n por primera vez:";
+	
+	Escribir "Llamando a la funci�n por segunda vez (Reutilizaci�n/DRY):";
+	mostrarMensajeSistemas(jelp)
+FinAlgoritmo
